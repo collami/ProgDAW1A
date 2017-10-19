@@ -1,11 +1,9 @@
 print 'Números pares e impares de un rango'
 
-n1=int (input('Introduce el valor inicial del rango:'))
-                 
-n2=int (input('Introduce el valor final del rango:'))
+n1=int (input('Introduce el primer valor:'))
+n2=int (input('Introduce el segundo valor:'))
+j=0
 
-r=n2-n1
-                 
-for i in range(n1,n2):
-    i=i+1
-    print i,
+for i in range(n1,n2+1):
+    j=j+i
+print j,
