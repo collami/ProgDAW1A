@@ -1,3 +1,4 @@
+# -*- coding: cp1252 -*-
 print 'Escritura de un rango de valores'
 print'\n'
 print 'Primer rango'
