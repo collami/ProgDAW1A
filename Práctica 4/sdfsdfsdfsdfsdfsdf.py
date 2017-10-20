@@ -2,11 +2,12 @@
 print 'Dibujando un triángulo dando su altura'
 a=input('Introduce la altura del trángulo:')
 a=abs(a)
-for i in range(a):
-    for j in range(i+1):
-        print '*',
-    print
+b=a*2
 for i in range(a-1,0,-1):
     for j in range(i):
-        print '*',
+        print i,
+    for k in range(1,b,+2):
+        for l in range(b):
+            print b,
     print
+

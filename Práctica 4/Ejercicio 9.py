@@ -7,7 +7,7 @@ a=abs(a)
 for i in range(1):
     for j in range(b):
         print'*',
-    print'\n'
+    print
 for i in range(a-2):
     for j in range(1):
         print'*',
@@ -15,7 +15,7 @@ for i in range(a-2):
         print ' ',
     for m in range(1):
         print'*',
-    print'\n'
+    print
 for i in range(1):
     for j in range(b):
         print'*',
