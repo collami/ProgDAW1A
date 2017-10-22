@@ -1,13 +1,10 @@
 # -*- coding: cp1252 -*-
-print 'Dibujando un triángulo dando su altura'
+print 'Dibujando un triángulo equilátero dando su altura'
 a=input('Introduce la altura del trángulo:')
 a=abs(a)
-b=a*2
-for i in range(1,b,+2):
-    for k in range(a-1,0,-1):
-        for l in range(k):
-            print '#',
-    for j in range(i):
-            print '*',
+for i in range(a):
+    b=(i*2)+1
+    print' '*a,'*'*b
+    a=a-1
 
 
