@@ -3,8 +3,8 @@ print 'Adivinando un número dentro de un rango'
 minim = int(raw_input("Establece el valor mínimo: "))
 maxim = int(raw_input("Establece el valor máximo: "))
 print'Piensa un número entre',minim,'y',maxim,'a ver si lo puedo adivinar'
-a=(maxim-minim)/2
-print'Es',a,':',
+a=(maxim-(maxim-minim)/2)
+print'Es',a,',escriba mayor, menor o igual:',
 b=raw_input()
 while b<>'igual':
     if b=='mayor':
@@ -13,6 +13,6 @@ while b<>'igual':
     elif b=='menor':
         maxim=a
         a=a-((a-minim)/2)
-    print'Es',a,':',
+    print'Es',a,',escriba mayor, menor o igual:',
     b=raw_input()
-print'Gracias por jugar conmigo'
+print'Gracias por jugar conmigo!'
