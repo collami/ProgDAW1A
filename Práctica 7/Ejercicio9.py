@@ -7,7 +7,7 @@ def frase(x,y):
     for i in range (-1,-4,-1):
         if x[i]==y[i]:
             w=w+1
-    if w>=3:
+    if w==3:
         print 'Las palabras riman'
     elif w==2:
         print 'Las palabras riman un poco'
