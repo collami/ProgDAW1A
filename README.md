@@ -5,3 +5,4 @@ Prácticas del módulo "Programació" del primer curso del ciclo de grado superi
 ## Práctica 2: "Introducció a la programació en Python".
 ## Práctica 4: "Exercicis bucle for".
 ## Práctica 5: "Exercicis while i llistes".
+## Práctica 6: "Exercicis de llistes".
