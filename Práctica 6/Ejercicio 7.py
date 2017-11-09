@@ -22,15 +22,11 @@ for i in range(len(lista1)):
         lista3.append(lista1[i])
 print 'Palabras que aparecen en las dos listas:',lista3
 for i in range(len(lista1)):
-    if lista1[i] in lista2:
-        lista4=lista4
-    else:
+    if not lista1[i] in lista2:
         lista4.append(lista1[i])
 print 'Palabras que sólo aparecen en la primera lista:',lista4
 for i in range(len(lista2)):
-    if lista2[i] in lista1:
-        lista5=lista5
-    else:
+    if not lista2[i] in lista1:
         lista5.append(lista2[i])
 print 'Palabras que sólo aparecen en la segunda lista:',lista5
 lista6=(lista3+lista4+lista5)
