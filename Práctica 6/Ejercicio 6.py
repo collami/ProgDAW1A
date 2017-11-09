@@ -8,5 +8,5 @@ for i in range(a):
     lista1.append(b)
 print 'La lista creada es:',lista1
 for i in range(len(lista1)-1,-1,-1):
-    lista2.append[lista1[i]]
-print 'La lista es ahora',lista2
+    lista2.append(lista1[i])
+print 'La lista inversa es:',lista2
