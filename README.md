@@ -6,3 +6,4 @@ Prácticas del módulo "Programació" del primer curso del ciclo de grado superi
 ## Práctica 4: "Exercicis bucle for".
 ## Práctica 5: "Exercicis while i llistes".
 ## Práctica 6: "Exercicis de llistes".
+## Práctica 7: "Ejercicis de maneig de cadenes, funcions y procediments".
